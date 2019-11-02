@@ -1,0 +1,52 @@
+---
+title: "Shoppers"
+author: "Earvin Baraka"
+date: "11/1/2019"
+output: html_document
+---
+```{r}
+#Import the dataset
+data <- read.csv("online_shoppers_intention.csv")
+```
+```{r}
+#Read the dataset
+head(data,4)
+```
+```{r}
+#view the data types
+str(data)
+
+```
+```{r}
+#check for integrity and uniqueness in the data
+unique <- unique(data)
+unique
+```
+```{r}
+#check the length of the dataset
+length(data)
+```
+```{r}
+#View the  variables dataset
+names(data)
+```
+```{r}
+#check the summary
+summary(data)
+```
+```{r}
+#check for missing values
+check <- sum(is.na(data))
+check
+```
+```{r}
+#Removing missing values
+is.na(data)
+```
+```{r}
+```
+```{r}
+```
+
+```{r}
+```
